@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="robotv.srp.robotv.RemoteBTActivity">
+    <RelativeLayout
+        android:id="@+id/layout_joystick1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/image_button_bg"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+    </RelativeLayout>
+
+    <Button
+        android:text="@string/close_connection"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bClose"
+        android:layout_marginTop="72dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp" />
+
+    <TextView
+        android:text="@string/direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/direction"
+        android:textStyle="normal|bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/bConnect"
+        android:layout_toStartOf="@+id/layout_joystick1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/directiontv"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:layout_alignBaseline="@+id/direction"
+        android:layout_alignBottom="@+id/direction"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bConnect"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/background_light"
+        android:layout_marginEnd="20dp"
+        android:layout_alignTop="@+id/bClose"
+        android:layout_toStartOf="@+id/bClose" />
+
+</RelativeLayout>
+
+

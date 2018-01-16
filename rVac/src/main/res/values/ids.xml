@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_request" type="id">RequestItem</item>
+    <item name="nav_account" type="id">MyAccount</item>
+    <item name="nav_schedule" type="id">Schedule</item>
+    <item name="nav_logout" type="id">Logout</item>
+    <item name="navigation_view" type="id">Navigation View</item>
+    <item name="nav_scan" type="id">Scan QR Codes</item>
+    <item name="nav_about" type="id">About Us</item>
+    <item name="nav_rc" type="id">Remote Control </item>
+    <item name="nav_set" type="id">Settings </item>
+    <item name="nav_bt" type="id">Remote Bluetooth </item>
+
+</resources>
